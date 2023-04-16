@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Chat Page UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>ChatGPT Chat Page</h1>
+        </div>
+        <div id="chat-messages" class="chat-messages">
+            <div class="gpt-message message">
+                <img src="img/robot.png" alt="ChatGPT Avatar" class="avatar">
+                <div class="message-content">
+                    <div class="message-author">ChatGPT</div>
+                    <div class="message-text">Hello, I'm ChatGPT, how can I help you?</div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input id="user-input" type="text" placeholder="Type your message here...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+</body>
+</html>
